@@ -1,0 +1,47 @@
+{
+  "dataset": "/mnt/data/college/4_tri/ML-Lab-2547121/ML_CIA/dataset/diabetes_binary_health_indicators_BRFSS2015.csv",
+  "sha256": "19f367e3e3350768f0c144c5d73ee5b355f67a57eaaa86ca7bd8aec594d8b1d0",
+  "raw_rows": 253680,
+  "columns": 22,
+  "missing_cells": 0,
+  "exact_duplicate_rows": 24206,
+  "invalid_values_by_feature": {
+    "HighBP": 0,
+    "HighChol": 0,
+    "CholCheck": 0,
+    "Smoker": 0,
+    "Stroke": 0,
+    "HeartDiseaseorAttack": 0,
+    "PhysActivity": 0,
+    "Fruits": 0,
+    "Veggies": 0,
+    "HvyAlcoholConsump": 0,
+    "AnyHealthcare": 0,
+    "NoDocbcCost": 0,
+    "DiffWalk": 0,
+    "Sex": 0,
+    "BMI": 0,
+    "MentHlth": 0,
+    "PhysHlth": 0,
+    "GenHlth": 0,
+    "Age": 0,
+    "Education": 0,
+    "Income": 0
+  },
+  "target_counts_before_deduplication": {
+    "0": 218334,
+    "1": 35346
+  },
+  "rows_after_exact_deduplication": 229474,
+  "rows_removed": 24206,
+  "positive_rate_after_deduplication": 0.1529454317264701,
+  "split": {
+    "strategy": "stratified 70/15/15, random_state=42",
+    "train_rows": 160631,
+    "validation_rows": 34421,
+    "test_rows": 34422,
+    "train_positive_rate": 0.152946815994422,
+    "validation_positive_rate": 0.15292989744632637,
+    "test_positive_rate": 0.15295450583928882
+  }
+}

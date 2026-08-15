@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-08-15T04:31:03.480570+00:00",
+  "random_seed": 42,
+  "quick_mode": false,
+  "selected_model": "Soft Voting",
+  "selection_rule": "highest validation average precision",
+  "operating_threshold": 0.42499999999999993,
+  "threshold_rule": "maximum validation F2 (recall weighted twice precision)",
+  "validation_f2_at_threshold": 0.6144525587374525,
+  "test_metrics_at_operating_threshold": {
+    "threshold": 0.42499999999999993,
+    "roc_auc": 0.8134811110860315,
+    "average_precision": 0.4303162191192615,
+    "f1": 0.42736181143563884,
+    "f2": 0.6100442730260478,
+    "precision": 0.28507964714095324,
+    "recall_sensitivity": 0.8531813865147199,
+    "specificity": 0.6136433789484514,
+    "balanced_accuracy": 0.7334123827315857,
+    "brier_score": 0.18331908434339042,
+    "tn": 17892,
+    "fp": 11265,
+    "fn": 773,
+    "tp": 4492
+  },
+  "test_average_precision_gain_over_baseline": 0.015587116916707389,
+  "tuning": {
+    "Random Forest": {
+      "best_params": {
+        "model__max_depth": 10,
+        "model__max_features": "sqrt",
+        "model__min_samples_leaf": 3,
+        "model__n_estimators": 120
+      },
+      "cv_average_precision": 0.42404626376318627,
+      "seconds": 183.31556608999927
+    },
+    "AdaBoost": {
+      "best_params": {
+        "model__estimator__max_depth": 2,
+        "model__learning_rate": 0.1,
+        "model__n_estimators": 100
+      },
+      "cv_average_precision": 0.40909904455553453,
+      "seconds": 146.73374925899952
+    }
+  },
+  "versions": {
+    "python": "3.12.13",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.0",
+    "shap": "0.52.0"
+  },
+  "elapsed_seconds": 406.8776553810003
+}

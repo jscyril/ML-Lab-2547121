@@ -1,0 +1,29 @@
+{
+  "input": {
+    "HighBP": 1,
+    "HighChol": 1,
+    "CholCheck": 1,
+    "BMI": 34,
+    "Smoker": 0,
+    "Stroke": 0,
+    "HeartDiseaseorAttack": 0,
+    "PhysActivity": 0,
+    "Fruits": 1,
+    "Veggies": 1,
+    "HvyAlcoholConsump": 0,
+    "AnyHealthcare": 1,
+    "NoDocbcCost": 0,
+    "GenHlth": 3,
+    "MentHlth": 2,
+    "PhysHlth": 5,
+    "DiffWalk": 0,
+    "Sex": 0,
+    "Age": 8,
+    "Education": 5,
+    "Income": 5
+  },
+  "risk_score": 0.7255792629525805,
+  "screen_positive": true,
+  "threshold": 0.42499999999999993,
+  "disclaimer": "Screening support only; this score is not a diagnosis or a calibrated future-risk probability."
+}
